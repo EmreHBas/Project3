@@ -10,12 +10,12 @@
 
     <h1>Test</h1>
     
-    <nav>
-        <a href="home.php">Homepage</a>
-        <a href="testbetul.php">Betul</a>
-        <a href="TestPagEmre.php">Emre</a>
-        <a href="TestPagTuncay.php">Tuncay</a>
-    </nav> 
+    <ul>
+        <li><a href="home.php">home</a></li>
+        <li><a href="TestPagtuncay.php">Tuncay</a></li>
+        <li><a href="TestPagEmre.php">Emre</a></li>
+        <li><a href="testbetul.html">Betul</a></li>
+    </ul>
 
     <?php
 echo "Today is " . date("d/m/Y") . "<br>";
