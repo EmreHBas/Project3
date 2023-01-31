@@ -8,10 +8,12 @@
 </head>
 <body>
     <ul>
-        <li><a href="home.html">home</a></li>
+        <li><a href="home.php">home</a></li>
         <li><a href="TestPagTuncay.html">Tuncay</a></li>
-        <li><a href="TestPagEmre.html">Emre</a></li>
+        <li><a href="TestPagEmre.php">Emre</a></li>
         <li><a href="testbetul.html">Betul</a></li>
     </ul>
+
+
 </body>
 </html>
