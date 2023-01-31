@@ -17,5 +17,12 @@
         <a href="/TestPagTuncay.html">Tuncay</a>
     </nav> 
 
+<?php
+
+echo date("Y-m-d") . "<br>";
+
+?>
+
 </body>
 </html>
+
