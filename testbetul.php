@@ -12,14 +12,14 @@
     
     <nav>
         <a href="/home.html">Homepage</a>
-        <a href="/testbetul.html">Betul</a>
+        <a href="/testbetul.php">Betul</a>
         <a href="/TestPagEmre.html">Emre</a>
         <a href="/TestPagTuncay.html">Tuncay</a>
     </nav> 
 
 <?php
 
-echo date("Y-m-d") . "<br>";
+echo date("Y-m-d") ;
 
 ?>
 
