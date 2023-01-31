@@ -9,9 +9,16 @@
 <body>
     <ul>
         <li><a href="home.html">home</a></li>
-        <li><a href="tuncay.html">Tuncay</a></li>
-        <li><a href="TestPagEmre.html">Emre</a></li>
+        <li><a href="TestPagtuncay.php">Tuncay</a></li>
+        <li><a href="TestPagEmre.php">Emre</a></li>
         <li><a href="testbetul.html">Betul</a></li>
     </ul>
+
+<?php
+echo "Today is " . date("Y/m/d") . "<br>";
+echo "Today is " . date("Y.m.d") . "<br>";
+echo "Today is " . date("Y-m-d") . "<br>";
+echo "Today is " . date("l");
+?>
 </body>
 </html>
