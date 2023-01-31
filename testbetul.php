@@ -11,16 +11,14 @@
     <h1>Test</h1>
     
     <nav>
-        <a href="home.html">Homepage</a>
+        <a href="home.php">Homepage</a>
         <a href="testbetul.php">Betul</a>
         <a href="TestPagEmre.php">Emre</a>
         <a href="TestPagTuncay.php">Tuncay</a>
     </nav> 
 
-<?php
-
-echo date("Y-m-d") ;
-
+    <?php
+echo "Today is " . date("d/m/Y") . "<br>";
 ?>
 
 </body>
