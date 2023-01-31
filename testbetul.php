@@ -11,10 +11,10 @@
     <h1>Test</h1>
     
     <nav>
-        <a href="/home.html">Homepage</a>
-        <a href="/testbetul.php">Betul</a>
-        <a href="/TestPagEmre.html">Emre</a>
-        <a href="/TestPagTuncay.html">Tuncay</a>
+        <a href="home.html">Homepage</a>
+        <a href="testbetul.php">Betul</a>
+        <a href="TestPagEmre.php">Emre</a>
+        <a href="TestPagTuncay.php">Tuncay</a>
     </nav> 
 
 <?php
