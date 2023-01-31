@@ -8,13 +8,12 @@
 </head>
 <body>
     <ul>
+        <li><a href="home.html">home</a></li>
         <li><a href="TestPagTuncay.html">Tuncay</a></li>
         <li><a href="TestPagEmre.html">Emre</a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
+        <li><a href="testbetul.html">Betul</a></li>
     </ul>
 
-    <h1>Test 123</h1>
-    <p>test test test</p>
+
 </body>
 </html>
