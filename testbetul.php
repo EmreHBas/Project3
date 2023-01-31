@@ -14,7 +14,7 @@
         <li><a href="home.php">home</a></li>
         <li><a href="TestPagtuncay.php">Tuncay</a></li>
         <li><a href="TestPagEmre.php">Emre</a></li>
-        <li><a href="testbetul.html">Betul</a></li>
+        <li><a href="testbetul.php">Betul</a></li>
     </ul>
 
     <?php
