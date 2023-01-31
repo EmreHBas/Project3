@@ -8,17 +8,10 @@
 </head>
 <body>
     <ul>
-<<<<<<< HEAD:home.html
-        <li><a href="home.html">home</a></li>
-        <li><a href="TestPagTuncay.html">Tuncay</a></li>
-        <li><a href="TestPagEmre.html">Emre</a></li>
-        <li><a href="testbetul.php">Betul</a></li>
-=======
         <li><a href="home.php">home</a></li>
         <li><a href="TestPagTuncay.php">Tuncay</a></li>
         <li><a href="TestPagEmre.php">Emre</a></li>
-        <li><a href="testbetul.html">Betul</a></li>
->>>>>>> 894a773e8c04435c72e1020ada1bb797a627fefa:home.php
+        <li><a href="testbetul.php">Betul</a></li>
     </ul>
 
 
