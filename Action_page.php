@@ -1,6 +1,6 @@
 <?php 
 
 echo "Datum: " . date("Y/m/d") . "<br>";
-echo "Username: " . $_POST ["fname"] . "<br>";
-echo "Password: " . $_POST ["lname"];
+echo "Username: " . $_POST ["username"] . "<br>";
+echo "Password: " . $_POST ["password"];
 ?>
