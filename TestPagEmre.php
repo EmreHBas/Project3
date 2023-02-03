@@ -28,7 +28,7 @@ echo "Today is " . date("d/m/Y") . "<br>";
   <input type="submit" value="Submit">
 </form> 
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p> <br>
 
 
 </body>
