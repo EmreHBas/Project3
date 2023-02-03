@@ -21,7 +21,7 @@ echo "Today is " . date("d/m/Y") . "<br>";
 
 <h2>HTML Forms</h2>
 
-<form action="action_page.php">
+<form action="action_page.php" method="POST">
   <label for="username">Username:</label><br>
   <input type="text" id="username" name="username" value="John"><br>
   <label for="pwd">Password:</label><br>
