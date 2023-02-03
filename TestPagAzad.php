@@ -4,15 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>pagina Azad</title>
 </head>
 <body>
-
-    <h1>Test</h1>
-    
     <ul>
         <li><a href="home.php">home</a></li>
-        <li><a href="TestPagtuncay.php">Tuncay</a></li>
+        <li><a href="TestPagTuncay.php">Tuncay</a></li>
         <li><a href="TestPagEmre.php">Emre</a></li>
         <li><a href="testbetul.php">Betul</a></li>
         <li><a href="TestPageAzad.php">Azad</li>
@@ -21,7 +18,6 @@
     <?php
 echo "Today is " . date("d/m/Y") . "<br>";
 ?>
-
 
 <h2>HTML Forms</h2>
 
@@ -33,8 +29,8 @@ echo "Today is " . date("d/m/Y") . "<br>";
   <input type="submit" value="Submit">
 </form> 
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p> <br>
+
 
 </body>
 </html>
-
