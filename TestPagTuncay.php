@@ -12,12 +12,11 @@
         <li><a href="TestPagtuncay.php">Tuncay</a></li>
         <li><a href="TestPagEmre.php">Emre</a></li>
         <li><a href="testbetul.php">Betul</a></li>
+        <li><a href="TestPageAzad.php">Azad</li>
     </ul>
 
 <?php
 echo "Today is " . date("Y/m/d") . "<br>";
-echo "Today is " . date("Y.m.d") . "<br>";
-echo "Today is " . date("Y-m-d") . "<br>";
 echo "Today is " . date("l");
 ?>
 

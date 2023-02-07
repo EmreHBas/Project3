@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina Emre</title>
+    <title>pagina Azad</title>
 </head>
 <body>
     <ul>
@@ -21,7 +21,7 @@ echo "Today is " . date("d/m/Y") . "<br>";
 
 <h2>HTML Forms</h2>
 
-<form action="action_page.php" method="POST">
+<form action="action_page.php"  method="POST">
   <label for="username">Username:</label><br>
   <input type="text" id="username" name="username" value="John"><br>
   <label for="pwd">Password:</label><br>
