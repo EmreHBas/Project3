@@ -3,7 +3,7 @@
 
 
 
-$len = strlen($_POST['fname']);
+$len = strlen($_POST['username']);
 echo " de lengte van uname : $len <br>";
 
 if ( $len < 5) {
