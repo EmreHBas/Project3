@@ -6,22 +6,21 @@ $a[0] = "Jan";
 $a[1] = "Rob";
 $a[2] = "Piet";
 
-foreach($a as $value) {
+$b = array(10,11,12,34,100,1000);
+
+echo '<table border="1" width="200">';
+foreach($b as $value) {
     // toevoegen tr en td
     echo "<tr><td>";
-    
-    <td>Jan</td>;
-    <td>Rob</td>;
-    <td>Piet</td>;
 
     // Print naam
     echo $value . "<br>";
    
     // afsluiten tr en td
-    echo "</td></tr>"
+    echo "</td></tr>";
 }
 
-echo '</table>';
+
 
 //var_dump($a);
 echo "<br>";
