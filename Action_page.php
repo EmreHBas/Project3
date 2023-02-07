@@ -36,7 +36,7 @@ echo '<table border="1" width="200">';
 foreach($a as $value){
 
     //toevoegen tr en td
-    echo "<tr><td>";
+   
 
     //print naam
 
