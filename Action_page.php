@@ -2,6 +2,7 @@
 
 
 
+
 $len = strlen($_POST['fname']);
 echo " de lengte van uname : $len <br>";
 
@@ -22,7 +23,6 @@ echo " <br> De lengte van username: $len";
 if ($len <5 ) {
     echo " <br>Username moet groter zijn dan 4 tekens <br>"; 
 }
-
 
 
 
