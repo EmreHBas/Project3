@@ -1,5 +1,18 @@
 <?php
 
+
+
+$a[0] = "Jan";
+$a[1] = "Rob";
+$a[2] = "Piet";
+
+foreach($a as $value) {
+    echo $value . "<br>";
+}
+
+//var_dump($a);
+echo "<br>";
+
 echo "Hello World";
 echo "<br> <br>";
 
