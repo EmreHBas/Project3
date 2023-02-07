@@ -3,7 +3,7 @@
 
 
 
-$len = strlen($_POST['fname']);
+$len = strlen($_POST['username']);
 echo " de lengte van uname : $len <br>";
 
 if ( $len < 5) {
@@ -24,6 +24,7 @@ if ($len <5 ) {
     echo "Username moet groter zijn dan 4 tekens <br>"; 
 }
 
+var_dump($_POST);
 
 
 /*array vullen*/ 
@@ -34,7 +35,7 @@ $a[2]= "piet";
 //$b = array(10,11,12,34,100,1000); //ook mogelijk!!
 
 echo '<table border="1" width= "200">';
-foreach($a as $value){
+foreach($_POST as $value){
 
     //toevoegen tr en td
     echo "<tr><td>";
