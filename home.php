@@ -12,7 +12,7 @@
         <li><a href="TestPagTuncay.php">Tuncay</a></li>
         <li><a href="TestPagEmre.php">Emre</a></li>
         <li><a href="Testbetul.php">Betul</a></li>
-        <li><a href="TestPageAzad.php">Azad</li>
+        <li><a href="TestPagAzad.php">Azad</li>
     </ul>
 
     <?php
