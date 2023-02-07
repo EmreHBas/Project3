@@ -1,5 +1,8 @@
 <?php
 
+var_dump($_POST);
+var_dump("username");
+var_dump("password");
 
 
 $a[0] = "Jan";
@@ -9,7 +12,7 @@ $a[2] = "Piet";
 $b = array(10,11,12,34,100,1000);
 
 echo '<table border="1" width="200">';
-foreach($b as $value) {
+foreach($_POST as $value) {
     // toevoegen tr en td
     echo "<tr><td>";
 
@@ -19,7 +22,6 @@ foreach($b as $value) {
     // afsluiten tr en td
     echo "</td></tr>";
 }
-
 
 
 //var_dump($a);
