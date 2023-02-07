@@ -13,7 +13,6 @@ if ($len <5 ) {
 
 
 
-
 /*array vullen*/ 
 
 $a[0]= "jan";
