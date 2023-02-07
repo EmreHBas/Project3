@@ -34,7 +34,7 @@ $a[2]= "piet";
 $b = array(10,11,12,34,100,1000);
 
 echo '<table border="1" width="200">';
-foreach($b2 as $value){
+foreach($a as $value){
 
     //toevoegen tr en td
    
