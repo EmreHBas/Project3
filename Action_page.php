@@ -9,7 +9,7 @@ echo "De lengte van username: $len";
 
 if ($len <5 ) {
     echo "Username moet groter zijn dan 4 tekens <br>"; 
-} 
+}
 
 ?>
 
