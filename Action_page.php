@@ -32,13 +32,19 @@ $a[0]= "jan";
 $a[1]= "rob";
 $a[2]= "piet";
 
+
+echo '<table border="1" width="200">';
 foreach($a as $value){
     //print naam
-    echo $value . "<br>";
-}
 
+    echo "<tr><td>";
+    echo $value . "<br>";
+    echo "</tr></td>";
+}
+echo '</table>';
 //var_dump($a);
 echo "<br>";
+
 
 
 ?>
