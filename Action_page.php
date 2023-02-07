@@ -13,14 +13,14 @@ if ( $len < 5) {
 
 
 echo "Datum: " . date("Y/m/d") . "<br>";
-echo "Username: " . $_POST ["username"] . "<br>";
-echo "Password: " . $_POST ["password"];
+echo "Username: " . $_POST ["fname"] . "<br>";
+echo "Password: " . $_POST ["lname"];
 
-$len = strlen($_POST["username"]);
-echo "De lengte van username: $len";
+$len = strlen($_POST["fname"]);
+echo " <br> De lengte van username: $len";
 
 if ($len <5 ) {
-    echo "Username moet groter zijn dan 4 tekens <br>"; 
+    echo " <br>Username moet groter zijn dan 4 tekens <br>"; 
 }
 
 
