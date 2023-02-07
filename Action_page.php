@@ -32,6 +32,13 @@ $a[0]= "jan";
 $a[1]= "rob";
 $a[2]= "piet";
 
-var_dump($a);
+foreach($a as $value){
+    //print naam
+    echo $value . "<br>";
+}
+
+//var_dump($a);
 echo "<br>";
+
+
 ?>
