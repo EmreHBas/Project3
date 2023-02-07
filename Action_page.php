@@ -27,7 +27,6 @@ if ($len <5 ) {
 
 
 /*array vullen*/ 
-
 $a[0]= "jan";
 $a[1]= "rob";
 $a[2]= "piet";
@@ -35,6 +34,10 @@ $a[2]= "piet";
 
 echo '<table border="1" width="200">';
 foreach($a as $value){
+
+    //toevoegen tr en td
+    echo "<tr><td>";
+
     //print naam
 
     echo "<tr><td>";
