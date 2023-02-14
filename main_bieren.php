@@ -11,6 +11,6 @@ include 'functions.php';
 ConnectDb();
 
 //print bieren
-OvzBieren();
+OvzBieren(100);
 
 ?>

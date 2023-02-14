@@ -6,8 +6,10 @@ function ConnectDb(){
     echo "connect<br>";
 }
 
-function Ovzbieren(){
+function Ovzbieren($getal){
     echo "overzicht<br>";
+    $uitkomst= $getal * 10;
+    return $uitkomst;
 }
 
 
