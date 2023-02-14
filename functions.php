@@ -18,6 +18,8 @@ try {
 catch(PDOException $e) {
   echo "Connection failed: " . $e->getMessage();
 }
+
+return $conn;
 }
 
 function Ovzbieren()
@@ -33,4 +35,3 @@ function Ovzbieren($getal){
 
 
 ?>
-.
