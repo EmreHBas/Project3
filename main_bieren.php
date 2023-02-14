@@ -14,4 +14,6 @@ ConnectDb();
 $result = OvzBieren(100);
 echo $result;
 
+$result = OvzBieren(2);
+echo $result;
 ?>
