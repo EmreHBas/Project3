@@ -23,12 +23,12 @@ return $conn;
 }
 
 
-function Ovzbieren($getal){
-    echo "overzicht<br>";
-    $uitkomst= $getal * 10;
-    return $uitkomst;
+function Ovzbieren($conn){
+ $query = $conn->prepare("SELECT * FROM bier");
+ $query->execute();
+ $result = $query->fetchALL(PDO::FETCH_ASSOC);
 
-
+ var_dump($result);
 }
 
 
