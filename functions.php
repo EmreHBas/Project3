@@ -10,6 +10,7 @@ function Ovzbieren($getal){
     echo "overzicht<br>";
     $uitkomst= $getal * 10;
     return $uitkomst;
+    
 }
 
 

@@ -11,6 +11,7 @@ include 'functions.php';
 ConnectDb();
 
 //print bieren
-OvzBieren(100);
+$result = OvzBieren(100);
+echo $result;
 
 ?>
