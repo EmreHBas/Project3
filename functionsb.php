@@ -17,10 +17,12 @@ try {
 }
 }
 
-function OvzBieren($getal){
-    echo "overzicht<br>";
-    $uitkomst = $getal * 10;
-    return $uitkomst;
+function OvzBieren($conn){
+  $query = $conn->prepare("SELECT * FROM bier");
+  $query->execute();
+  $result = $query->fetchAll(PDO:FETCH_ASSOC);
+
+  var_dump($result);
 }
 
 ?>

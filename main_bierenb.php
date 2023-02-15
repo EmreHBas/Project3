@@ -7,9 +7,10 @@
 
 include 'functionsb.php';
 
-ConnectDb();
+$conn = ConnectDb();
+var_dump($conn);
 
-$result = OvzBieren(100);
-echo $result;
+OvzBieren($conn);
+ 
 
 ?>
