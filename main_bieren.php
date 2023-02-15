@@ -23,13 +23,17 @@ include 'functions.php';
 //main
 
 //connect database bieren
-ConnectDb();
+$conn = ConnectDb();
+var_dump($conn);
 
 //print bieren
-$result = OvzBieren(100);
-echo $result;
+OvzBieren($conn);
 
+
+<<<<<<< HEAD
 $result = OvzBieren(2);
 echo $result;
 >>>>>>> 25253aff4718b3ab0fc6434ea4cd1c7c4f3d19f3
+=======
+>>>>>>> 7afa4ec4a40560423fdf7eac6c21267d34259867
 ?>

@@ -33,11 +33,20 @@ return $conn;
 }
 
 
+<<<<<<< HEAD
 function Ovzbieren($getal){
 >>>>>>> 1bfe48ab2f106522907fcee723a59d2d7b0c6238
     echo "overzicht<br>";
     $uitkomst = $getal * 10;
     return $uitkomst;
+=======
+function Ovzbieren($conn){
+ $query = $conn->prepare("SELECT * FROM bier");
+ $query->execute();
+ $result = $query->fetchALL(PDO::FETCH_ASSOC);
+
+ var_dump($result);
+>>>>>>> 7afa4ec4a40560423fdf7eac6c21267d34259867
 }
 
 <<<<<<< HEAD
