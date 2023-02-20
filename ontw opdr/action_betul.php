@@ -1,7 +1,6 @@
 <?php
 
 
-
 $a[0] = "Jan";
 $a[1] = "Rob";
 $a[2] = "Piet";
@@ -9,7 +8,32 @@ $a[2] = "Piet";
 $b = array(10,11,12,34,100,1000);
 
 echo '<table border="1" width="200">';
-foreach($b as $value) {
+foreach($_POST as $value) {
+    // toevoegen tr en td
+    echo "<tr><td>";
+
+    // Print naam
+    echo $value . "<br>";
+   
+    // afsluiten tr en td
+    echo "</td></tr>";
+} 
+
+echo '<table border="1" width="200">';
+foreach($_POST as $name => $value) {
+    // toevoegen tr en td
+    echo "<tr><td>";
+
+    // Print naam
+    echo "$name:";
+    echo "$value";
+   
+    // afsluiten tr en td
+    echo "</td></tr>";
+}
+
+echo '<table border="1" width="200">';
+foreach($a as $value) {
     // toevoegen tr en td
     echo "<tr><td>";
 
@@ -21,12 +45,8 @@ foreach($b as $value) {
 }
 
 
-
 //var_dump($a);
 echo "<br>";
-
-echo "Hello World";
-echo "<br> <br>";
 
 
 echo "Today is " . date("d/m/Y") . "<br>";
