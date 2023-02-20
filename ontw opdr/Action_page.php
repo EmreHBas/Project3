@@ -3,7 +3,7 @@
 
 
 
-$len = strlen($_POST['username']);
+$len = strlen($_POST['fname']);
 echo " de lengte van uname : $len <br>";
 
 if ( $len < 5) {
@@ -14,14 +14,14 @@ if ( $len < 5) {
 
 
 echo "Datum: " . date("Y/m/d") . "<br>";
-echo "Username: " . $_POST ["username"] . "<br>";
-echo "Password: " . $_POST ["password"];
+echo "Username: " . $_POST ["fname"] . "<br>";
+echo "Password: " . $_POST ["lname"];
 
-$len = strlen($_POST["username"]);
-echo "De lengte van username: $len";
+$len = strlen($_POST["fname"]);
+echo " <br> De lengte van username: $len";
 
 if ($len <5 ) {
-    echo "Username moet groter zijn dan 4 tekens <br>"; 
+    echo " <br>Username moet groter zijn dan 4 tekens <br>"; 
 }
 
 var_dump($_POST);
@@ -38,18 +38,18 @@ echo '<table border="1" width= "200">';
 foreach($_POST as $value){
 
     //toevoegen tr en td
-    echo "<tr><td>";
+   
 
     //print naam
+
+    echo "<tr><td>";
     echo $value . "<br>";
-
-    //afsluiten tr en td
-    echo "</td></tr>";
+    echo "</tr></td>";
 }
-
-
+echo '</table>';
 //var_dump($a);
 echo "<br>";
+
 
 
 ?>
