@@ -8,12 +8,11 @@ include 'functions.php';
 //main
 
 //connect database bieren
-ConnectDb();
+$conn = ConnectDb();
+var_dump($conn);
 
 //print bieren
-$result = OvzBieren(100);
-echo $result;
+OvzBieren($conn);
 
-$result = OvzBieren(2);
-echo $result;
+
 ?>
