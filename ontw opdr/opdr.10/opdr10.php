@@ -1,5 +1,5 @@
 <?php
-// auteur: 
+// auteur: Wigmans
 // functie: algemene functies tbv hergebruik
  function ConnectDb(){
     $servername = "localhost";
@@ -31,7 +31,7 @@
     return $result;
  }
 
- function OvzBrouwers(){
+ function OvzBrouwer(){
 
     // Haal alle bier record uit de tabel 
     $result = GetData("brouwer");
@@ -40,11 +40,11 @@
     echo "<table border=1px>";
     foreach ($result as $data) {
         echo "<tr>";
-        echo "<td>" , $data ["naam"];  "</td>";
-        echo "<td>" , $data ["land"];  "</td>";
+        echo "<td>" . $data ["naam"].  "</td>";
+        echo "<td>" . $data ["land"].  "</td>";
         echo "</tr>";
     }
     echo '"</table>';
- }
+ }
 
 ?>

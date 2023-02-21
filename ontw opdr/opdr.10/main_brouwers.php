@@ -3,16 +3,15 @@
 // auteur: 
 
 //initialisatie
-include 'functions.php';
+include 'opdr10.php';
 
 //main
 
 //connect database bieren
-$conn = ConnectDb();
-var_dump($conn);
+
 
 //print bieren
-OvzBrouwers($conn);
+OvzBrouwer();
 
 
 ?>
