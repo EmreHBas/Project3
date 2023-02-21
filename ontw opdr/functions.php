@@ -18,7 +18,6 @@ try {
 catch(PDOException $e) {
   echo "Connection failed: " . $e->getMessage();
 }
-<<<<<<< HEAD:functions.php
 
 return $conn;
 }
@@ -34,20 +33,3 @@ function Ovzbieren($conn){
 
 
 ?>
-=======
-
-return $conn;
-}
-
-
-function Ovzbieren($conn){
- $query = $conn->prepare("SELECT * FROM bier");
- $query->execute();
- $result = $query->fetchALL(PDO::FETCH_ASSOC);
-
- var_dump($result);
-}
-
-
-?>
->>>>>>> 675793290d7902780cb11021c4dd97172e0a343f:ontw opdr/functions.php
