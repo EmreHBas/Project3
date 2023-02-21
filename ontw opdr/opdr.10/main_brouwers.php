@@ -2,7 +2,8 @@
 //functie: Programme overzicht bieren
 // auteur: 
 
-
+//initialisatie
+include 'functions.php';
 
 //main
 
@@ -11,7 +12,7 @@ $conn = ConnectDb();
 var_dump($conn);
 
 //print bieren
-OvzBieren($conn);
+OvzBrouwers($conn);
 
 
 ?>
