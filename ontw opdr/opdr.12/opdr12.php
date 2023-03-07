@@ -37,6 +37,7 @@
     $result = GetData("bier");
     
     //print table
+    echo '<a href="insert.php">Voeg bieren toe</a>'; 
     echo "<table border=1px>";
     foreach ($result as $data) {
         echo "<tr>";
