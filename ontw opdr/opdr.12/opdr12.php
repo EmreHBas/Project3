@@ -46,9 +46,15 @@
         echo "<td>" . $data ["stijl"].  "</td>";
         echo "<td>" . $data ["alcohol"].  "</td>";
         echo "<td>" . $data ["brouwcode"].  "</td>";
+        echo "<td><input type='button' value=wijzig </td>";
+        echo "<td><input type='button' value=verwijder </td>";
         echo "</tr>";
+        "</td>";    
+         
     }
     echo '"</table>';
+
  }
+
 
 ?>
