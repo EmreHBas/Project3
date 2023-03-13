@@ -1,3 +1,8 @@
+.body, html {
+height: 100%;
+margin: 0;
+}
+
 .menu-bar{
     height: 80px;
     width: 100%;
@@ -8,4 +13,25 @@
     position:relative ; z-index: 9999;
     left: 0px;
     right: 0px;
+    padding: -150px 15px;
+    border-style: solid;
+    background-color: black;
+}
+
+.BetaPic {
+    display: flex;
+    justify-content: left;
+    margin: -160px 10px;
+    height: 75px;
+    float: left;
+
+}
+
+.BetaBuild {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    
 }
