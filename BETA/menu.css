@@ -1,37 +1,52 @@
-.body, html {
-height: 100%;
-margin: 0;
-}
+.bg-img {
+    /* The image used */
+    background-image: url("Beta Gebouw.jpg");
 
-.menu-bar{
-    height: 80px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5%;
-    position:relative ; z-index: 9999;
-    left: 0px;
-    right: 0px;
-    padding: -150px 15px;
-    border-style: solid;
-    background-color: black;
-}
-
-.BetaPic {
-    display: flex;
-    justify-content: left;
-    margin: -160px 10px;
-    height: 75px;
-    float: left;
-
-}
-
-.BetaBuild {
-    height: 100%;
+  
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
-    
-}
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .BetaPic {
+    display: flex;
+    justify-content: flex-end;
+    padding: -175px 40px;
+    height: 50px;
+    width: 75px;
+    float: right;
+  }
